@@ -77,8 +77,15 @@ main {
   line-height: 1.1;
 }
 
-/* Links section */
+/* Links section - 2 column layout */
 .links {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.column {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -147,8 +154,8 @@ main {
   opacity: 0.8;
 }
 
-/* Divider between groups */
-.links .link-group + .link-group {
+/* Divider between groups within a column */
+.column .link-group + .link-group {
   padding-top: 1.5rem;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -163,16 +170,21 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   html {
     font-size: 16px;
   }
-  
+
   main {
     padding: 2rem 1.5rem;
   }
-  
+
   .company-name {
     margin-bottom: 3rem;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 }
