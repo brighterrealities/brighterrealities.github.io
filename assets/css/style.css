@@ -42,6 +42,36 @@ body {
   display: flex;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+/* Tiled background on edges */
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: calc(50% - 300px);
+  background-image: url('../tile-padded.svg'), url('../tile-padded.svg');
+  background-size: 90px 90px, 90px 90px;
+  background-position: 0 0, 45px 45px;
+  background-repeat: repeat, repeat;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::before {
+  left: 0;
+  mask-image: linear-gradient(to right, black, transparent);
+  -webkit-mask-image: linear-gradient(to right, black, transparent);
+}
+
+body::after {
+  right: 0;
+  mask-image: linear-gradient(to left, black, transparent);
+  -webkit-mask-image: linear-gradient(to left, black, transparent);
 }
 
 main {
