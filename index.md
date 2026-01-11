@@ -3,7 +3,10 @@ layout: default
 title: Brighter Realities
 ---
 
-<h1 class="company-name">Brighter Realities</h1>
+<div class="company-header">
+  <img src="{{ '/assets/logo.png' | relative_url }}" alt="Brighter Realities logo" class="logo">
+  <h1 class="company-name">Brighter Realities</h1>
+</div>
 
 <div class="links">
   <div class="link-group">

@@ -55,6 +55,19 @@ main {
   width: 100%;
 }
 
+/* Company header with logo */
+.company-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  height: clamp(3rem, 10vw, 5rem);
+  width: auto;
+}
+
 /* Company name — using Fraunces optical size and wonk axes */
 .company-name {
   font-size: clamp(2.5rem, 8vw, 4rem);
@@ -62,7 +75,6 @@ main {
   font-variation-settings: 'opsz' 72, 'SOFT' 50, 'WONK' 1;
   letter-spacing: -0.02em;
   line-height: 1.1;
-  margin-bottom: 4rem;
 }
 
 /* Links section */
