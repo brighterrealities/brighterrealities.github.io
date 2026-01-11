@@ -1,0 +1,12 @@
+title: Brighter Realities
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock

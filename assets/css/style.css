@@ -1,0 +1,166 @@
+/* Self-hosted Fraunces variable font */
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../fonts/Fraunces-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../fonts/Fraunces-Italic-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --bg: #faf8ff;
+  --text: #1a1a1a;
+  --text-secondary: #5a5a5a;
+  --accent: #F25E0D;
+  --accent-hover: #d94e00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Fraunces', Georgia, serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Company name — using Fraunces optical size and wonk axes */
+.company-name {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 300;
+  font-variation-settings: 'opsz' 72, 'SOFT' 50, 'WONK' 1;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 4rem;
+}
+
+/* Links section */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.link-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.link-group-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-secondary);
+  font-variation-settings: 'opsz' 9;
+}
+
+.link-item {
+  display: block;
+}
+
+.link-item a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-variation-settings: 'opsz' 24, 'SOFT' 0, 'WONK' 1;
+  transition: color 0.2s ease;
+  display: inline;
+  border-bottom: 1px solid transparent;
+}
+
+.link-item a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.link-item .description {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+  font-variation-settings: 'opsz' 12;
+}
+
+/* App Store badge */
+.app-store-badge {
+  margin-top: 0.25rem;
+}
+
+.app-store-badge a {
+  display: inline-block;
+  border-bottom: none !important;
+}
+
+.app-store-badge img {
+  height: 40px;
+  width: auto;
+  transition: opacity 0.2s ease;
+}
+
+.app-store-badge a:hover img {
+  opacity: 0.8;
+}
+
+/* Divider between groups */
+.links .link-group + .link-group {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-variation-settings: 'opsz' 9;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+  
+  main {
+    padding: 2rem 1.5rem;
+  }
+  
+  .company-name {
+    margin-bottom: 3rem;
+  }
+}
