@@ -36,7 +36,7 @@ title: Brighter Realities
     </div>
 
     <div class="link-group">
-      <span class="link-group-label">Repos</span>
+      <span class="link-group-label">Our other Tools & Repos</span>
 
       <div class="link-item">
         <a href="https://github.com/sneakinhysteria/EarFix">EarFix</a>
