@@ -64,7 +64,7 @@ main {
 }
 
 .logo {
-  height: clamp(3rem, 10vw, 5rem);
+  height: clamp(5rem, 15vw, 8rem);
   width: auto;
 }
 
