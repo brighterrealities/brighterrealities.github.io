@@ -1,11 +1,11 @@
 # What'sNew
 
-## Version 1.0 (Build 14)
+## Version 1.0 (Build 15)
 
 This is kind of a big deal build. It contains a few things I had planned post-launch, but as Apple is not capable of changing my Dev account postal address for almost 2 weeks, I have extra time to invest. This is a bit risky because new fundmental stuff might pop up. But hopefully it is worth it.
 
 ### 0. Whats new (this!) 
-- It's much better to document changes than the test notes. 
+- Now we have this in-app and without character limits!
 
 ### 1. Syncing had a complete overhaul! 
 
@@ -41,7 +41,11 @@ This was done in response to a handful of smaller requests (like “how can I re
 - So you know if this is your lossless version or your MP3 128kbps version.
 
 ### 7. Deleted delete
-- We had about 5 different delete buttons across the app. I deleted them. Now we have 2 trash icons for phone and watch in the Sync/Select screen. 
+- We had about 5 different delete buttons across the app. I deleted them. Now we have 2 trash icons for phone and watch in the Sync/Select screen.
+
+## 8. Storage stats have a new home
+- All under Sync:Select where you need it.
+- Removed from all the other random places
 
 ## IMPORTANT! 
 Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be build from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
