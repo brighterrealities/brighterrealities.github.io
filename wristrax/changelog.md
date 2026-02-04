@@ -1,5 +1,8 @@
 # What'sNew
 
+## IMPORTANT! 
+Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be build from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
+
 ## Version 1.0 (Build 15)
 
 This is kind of a big deal build. It contains a few things I had planned post-launch, but as Apple is not capable of changing my Dev account postal address for almost 2 weeks, I have extra time to invest. This is a bit risky because new fundmental stuff might pop up. But hopefully it is worth it.
@@ -47,5 +50,16 @@ This was done in response to a handful of smaller requests (like “how can I re
 - All under Sync:Select where you need it.
 - Removed from all the other random places
 
-## IMPORTANT! 
-Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be build from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
+
+
+## Version 1.0 (Build 14)
+
+### Fixes:
+
+1. Lazy NavigationLink for artist list (fixes app freeze with large artist lists - this is in addition to improving the server calls for the same scenario in build 13)
+2. Filter out >10k track playlists (hides "All Music") - nobody needs to sync these to a watch and they cause issues
+
+### New stuff:
+
+1. Auto-navigate to Phone tab after downloads complete                                                         
+2. “Shuffle All” button on Watch playlists and albums                                                           3. Double Tap pinch gesture for play/pause on Watch (needs WatchOS 11+, Series 9 and Ultra 2 onwards)
