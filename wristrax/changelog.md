@@ -20,19 +20,22 @@ This means you can keep a large offline library on your phone and only sync a su
 This was done in response to a handful of smaller requests (like “how can I remove playlists?” etc.) and I think this is a better way to manage this. 
 
 ### 2. The UI has changed to support the new flow. 
-The 1st tab in Sync is now called Download, the 2nd tab in Sync is now called Select. And now the sequence of tabs also makes sense. 
+- The 1st tab in Sync is now called Download, the 2nd tab in Sync is now called Select. And now the sequence of tabs also makes sense. 
 
 ### 3. Now, you finally see all your releses.
-The app did not list singles or EPs in the library, this is now also fixed. Needed a different API endpoint that has different features and lacks track count. So now the track count is created from opening an album and cached. You win your missing releases. You lose upfront track counts. Seems fair.
+- The app did not list singles or EPs in the library, this is now also fixed.
+- Needed a different API endpoint that has different features and lacks track count.
+- So now the track count is created from opening an album and cached. You win your missing releases. You lose upfront track counts. Seems fair.
 
 ### 4. Inverted green thingy no more
-The Watch app no longer shows an inverted green system crown indicator. I tried to correct the orientation and got nothing but app crashes. The volume bar is already a visual cue, so goodbye.
+- The Watch app no longer shows an inverted green system crown indicator. I tried to correct the orientation and got nothing but app crashes. The volume bar is already a visual cue, so goodbye.
 
 ### 5. Bios
-I realised I am pulling artist bios from the API so I thought why not add it to the Artist Library view as a toggle. Nobody asked for it, but you might get bored and now you have something to read. 
+- I realised I am pulling artist bios from the API so I thought why not add it to the Artist Library view as a toggle.
+- Nobody asked for it, but you might get bored and now you have something to read. 
 
 ### 6. We have codec badges everywhere now. 
-So you know if this is your lossless version or your MP3 128kbps version. 
+- So you know if this is your lossless version or your MP3 128kbps version. 
 
-## !!! 
+## IMPORTANT! 
 Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be build from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
