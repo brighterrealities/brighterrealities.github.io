@@ -50,7 +50,7 @@ This was done in response to a handful of smaller requests (like “how can I re
 - All under Sync:Select where you need it.
 - Removed from all the other random places
 
-
+---
 
 ## Version 1.0 (Build 14)
 
