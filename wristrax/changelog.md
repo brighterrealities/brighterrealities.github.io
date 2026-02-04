@@ -34,5 +34,5 @@ I realised I am pulling artist bios from the API so I thought why not add it to 
 ### 6. We have codec badges everywhere now. 
 So you know if this is your lossless version or your MP3 128kbps version. 
 
-##!!! 
+## !!! 
 Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be build from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
