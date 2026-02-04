@@ -35,7 +35,10 @@ This was done in response to a handful of smaller requests (like “how can I re
 - Nobody asked for it, but you might get bored and now you have something to read. 
 
 ### 6. We have codec badges everywhere now. 
-- So you know if this is your lossless version or your MP3 128kbps version. 
+- So you know if this is your lossless version or your MP3 128kbps version.
+
+### 7. Deleted delete
+- We had about 5 different delete buttons across the app. I deleted them. Now we have 2 trash icons for phone and watch in the Sync/Select screen. 
 
 ## IMPORTANT! 
 Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be build from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
