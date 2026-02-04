@@ -2,7 +2,10 @@
 
 ## Version 1.0 (Build 14)
 
-This is kind of a big deal build. It contains a few things I had planned post-launch, but as Apple is not capable of changing my Dev account postal address for almost 2 weeks, I have extra time to invest. This is a bit risky because new fundmental stuff might pop up. But hopefully it is worth it. 
+This is kind of a big deal build. It contains a few things I had planned post-launch, but as Apple is not capable of changing my Dev account postal address for almost 2 weeks, I have extra time to invest. This is a bit risky because new fundmental stuff might pop up. But hopefully it is worth it.
+
+### 0. Whats new (this!) 
+- It's much better to document changes than the test notes. 
 
 ### 1. Syncing had a complete overhaul! 
 
