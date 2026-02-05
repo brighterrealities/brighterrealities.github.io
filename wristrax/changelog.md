@@ -15,14 +15,14 @@ Unless there are any unexpected bugs (not that we have expected bugs…), this m
 ### What’s new:
 #### 1. Tracking of playlist changes
 - Playlist Library view (2nd tab):
-- 	Pull down to refresh
-- 	Playlists with changes will have icon in library
+  - Pull down to refresh
+  - Playlists with changes will have icon in library
 - Sync View (3rd Tab): 
   - Download (1st segment): Added tracks from PL will be added to download queue
   - Select (2nd segment): PL will show that there is an update and will show added tracks if you expand PL line
   - Watch (3rd segment): sync now will add tracks
-  -   Removed tracks will be removed from watch immediately after PL refresh, no sync needed
-  -   Tracks only get removed if they have no relationship with downloaded albums
+    - Removed tracks will be removed from watch immediately after PL refresh, no sync needed
+    - Tracks only get removed if they have no relationship with downloaded albums
 
 #### 2. Icons to flag library items as downloaded, selected, synced. 
 - Artist will show grey icon if any release has a status (highest state wins). So if one album is download and one synced, artist will show grey watch icon)
