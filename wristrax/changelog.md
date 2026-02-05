@@ -1,7 +1,40 @@
 # What'sNew
 
-## IMPORTANT! 
-Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be built from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
+> ## IMPORTANT! 
+> Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be built from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
+
+---
+
+## Version 1.0 (Build 16)
+
+Unless there are any unexpected bugs (not that we have expected bugs…), this might be the RC as Apple finally updated my address so this could go get submitted now.  So please report any issue, no matter how small.
+
+### Fixes:
+1. Stale Plex user Avatar fix
+
+### What’s new:
+#### 1. Tracking of playlist changes
+- Playlist Library view (2nd tab): 
+  - Pull down to refresh
+	-	PL with changes will have icon in library
+- Sync View (3rd Tab): 
+  - Download (1st segment): Added tracks from PL will be added to download queue
+  - Select (2nd segment): PL will show that there is an update and will show added tracks if you expand PL line
+	- Watch (3rd segment): sync now will add tracks
+	- Removed tracks will be removed from watch immediately after PL refresh, no sync needed
+	- Tracks only get removed if they have no relationship with downloaded albums
+
+#### 2. Icons to flag library items as downloaded, selected, synced. 
+- Artist will show grey icon if any release has a status (highest state wins). So if one album is download and one synced, artist will show grey watch icon)
+
+#### 3. Updated view for Watch content
+- same expandable pattern used everywhere else
+
+#### 4. Watch App:
+- Playing a track, play all or shuffle all now moves focus to play now screen as visual feedback
+- Reduced crown sensitivity for volume control in play now screen by 50%
+
+---
 
 ## Version 1.0 (Build 15)
 
