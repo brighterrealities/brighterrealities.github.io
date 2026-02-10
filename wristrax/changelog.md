@@ -4,6 +4,16 @@
 > Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be built from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
 
 ---
+## Version 1.0 (Build 17)
+
+The Martin build, because Martin finds the bugs. (thanks Martin!) Contains fixes only. 
+
+- Endless playlist update download loop fixed (happened when tracks had Playlist and album relationship)
+- Special characters consolidation - all under root characters now
+- Multible Artist name consolidation
+- Fixed crash due to database query bug  that mostly happened during transcoding
+  
+---
 
 ## Version 1.0 (Build 16)
 
