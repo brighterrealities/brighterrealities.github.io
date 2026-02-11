@@ -4,6 +4,17 @@
 > Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be built from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
 
 ---
+## Version 1.0 (Build 18)
+
+More fixes.
+
+- Hopefully *really* fixed database related crashes now - most prominent at the end of playlist transcoding.
+- Fixed watch status gating (would still show sync status and cached artist even when watch app is no longer installed)
+- Fixed hyper-persistent and misleading “Album Artwork” label during watch transfer - artwork transfers in parallel so no need to call it out and suggest we only transfer artwork 
+- Fixed Delete Phone Content flow - would sometimes still show number of tracks but 0MB
+- Blocked button to Delete Phone Content duriung active download queue to avoid confusion
+
+---
 ## Version 1.0 (Build 17)
 
 The Martin build, because Martin finds the bugs. (thanks Martin!) Contains fixes only. 
