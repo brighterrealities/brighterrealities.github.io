@@ -3,6 +3,13 @@
 > ## IMPORTANT! 
 > Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be built from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
 
+
+## Version 1.0 (Build 19)
+
+More fixes.
+
+- Multible playlist relationships for tracks - this should fix endless loops for subscribed (selected ) Playlists
+
 ---
 ## Version 1.0 (Build 18)
 
