@@ -1,8 +1,17 @@
 # What'sNew
 
 > ## IMPORTANT! 
-> Please delete and re-install your watch app for every build, particularly if you see sync issues (artwork missing etc). Many things have changed and the database needs to be built from scratch. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.   
+> Please delete and re-install your watch app for every build, unless explicitly stated otherwise in the build notes. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.
+> 
 
+
+## Version 1.0 (Build 20)
+
+More fixes.
+
+- Further fix for multi-playlist track relationships - requires deletion of tracks on watch and re-sync to watch, but no need to remove watch app itself
+
+---
 
 ## Version 1.0 (Build 19)
 
