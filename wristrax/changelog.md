@@ -6,7 +6,7 @@
 
 ---
 
-## Version 1.0 (Build 20)
+## Version 1.0 (Build 21)
 
 More fixes:
 
