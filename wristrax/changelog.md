@@ -15,7 +15,7 @@ More fixes:
 New: 
 
 Wristrax Full version in-app purchase:
-- So far, all features were enabled by default but as we are moving to release, I need to also test all AppStore flows. This mean you need to complete thepurchase flow to unlock the features. **Please be aware that any "purchase" via TestFlight will NOT result in a real charge.**
+- So far, the full app features were enabled by default but as we are moving to release, I need to also test all AppStore flows. This mean you need to complete the purchase flow to unlock the features. **Please be aware that a "purchase" via TestFlight will NOT result in a real charge.**
 
 ---
 
