@@ -4,6 +4,7 @@
 > Please delete and re-install your watch app for every build, unless explicitly stated otherwise in the build notes. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.
 > 
 
+---
 
 ## Version 1.0 (Build 20)
 
