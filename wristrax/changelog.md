@@ -8,9 +8,14 @@
 
 ## Version 1.0 (Build 20)
 
-More fixes.
+More fixes:
 
 - Further fix for multi-playlist track relationships - requires deletion of tracks on watch and re-sync to watch, but no need to remove watch app itself
+
+New: 
+
+Wristrax Full version in-app purchase:
+- So far, all features were enabled by default but as we are moving to release, I need to also test all AppStore flows. This mean you need to complete thepurchase flow to unlock the features. **Please be aware that any "purchase" via TestFlight will NOT result in a real charge.**
 
 ---
 
