@@ -8,7 +8,9 @@
 
 ## Version 1.0 (Build 22)
 
-Sorry for shipping a broken premium purchsse process. It is fixed now. At least we got that pesky multi playlist relationship issue fixed.  
+- Sorry for shipping a broken premium purchsse process. It is fixed now. At least we got that pesky multi playlist relationship issue fixed with build 21. 
+
+- Header logo updated slightly - and made smaller.
 
 ---
 
