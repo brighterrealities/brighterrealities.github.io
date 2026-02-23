@@ -6,6 +6,12 @@
 
 ---
 
+## Version 1.0 (Build 22)
+
+Sorry for shipping a broken premium purchsse process. It is fixed now. At least we got that pesky multi playlist relationship issue fixed.  
+
+---
+
 ## Version 1.0 (Build 21)
 
 More fixes:
