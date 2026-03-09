@@ -6,6 +6,15 @@
 
 ---
 
+## Version 1.0 (Build 23)
+
+- Sorry for the long wait - sometimes life gets in the way!
+- Also, again sorry for shipping a broken ~~premium~~ unlock purchsse process. It is really, really fixed now. Promise!
+
+RANT: Apple's App Store Connect is a terrible POS
+
+---
+
 ## Version 1.0 (Build 22)
 
 - Sorry for shipping a broken premium purchsse process. It is fixed now. At least we got that pesky multi playlist relationship issue fixed with build 21. 
