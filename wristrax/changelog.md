@@ -6,12 +6,17 @@
 
 ---
 
+## Version 1.0 (Build 24)
+
+- Fixed issue with ghost playlists for tracks that are part of multible playlists. All scenarios of adding and removing albums and playlists should now work correctly. Thanks Martin! :)
+- Added Settings toggle to enable logging as it is now disabled for AppStore and TestFlight builds by default to safe ressources. If you run into issuers, please enable logging before sending your logs
+
+---
+
 ## Version 1.0 (Build 23)
 
 - Sorry for the long wait - sometimes life gets in the way!
 - Also, again sorry for shipping a broken ~~premium~~ unlock purchsse process. It is really, really fixed now. Promise!
-
-RANT: Apple's App Store Connect is a terrible POS
 
 ---
 
