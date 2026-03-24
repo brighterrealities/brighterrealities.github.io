@@ -203,6 +203,83 @@ footer {
   font-variation-settings: 'opsz' 9;
 }
 
+/* Content pages (privacy policy, changelog, etc.) */
+main > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-variation-settings: 'opsz' 48, 'SOFT' 30, 'WONK' 1;
+  margin-bottom: 0.5rem;
+}
+
+main > h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  font-variation-settings: 'opsz' 36, 'SOFT' 20, 'WONK' 1;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+main > h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-variation-settings: 'opsz' 24, 'SOFT' 10;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+main > p {
+  margin-bottom: 1rem;
+  font-variation-settings: 'opsz' 14;
+}
+
+main > ul,
+main > ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+main > ul li,
+main > ol li {
+  margin-bottom: 0.4rem;
+  font-variation-settings: 'opsz' 14;
+}
+
+main > hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+main > blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+main a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+main a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* Override main centering for content pages */
+main > h1:first-child {
+  justify-content: flex-start;
+}
+
+main:has(> h1:first-child) {
+  justify-content: flex-start;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   html {

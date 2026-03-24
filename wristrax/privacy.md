@@ -1,3 +1,8 @@
+---
+layout: default
+title: wristrax Privacy Policy
+---
+
 # Privacy Policy
 
 **Last updated: March 24, 2026**
