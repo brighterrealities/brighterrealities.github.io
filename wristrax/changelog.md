@@ -3,6 +3,10 @@
 > ## IMPORTANT! 
 > Please delete and re-install your watch app for every build, unless explicitly stated otherwise in the build notes. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.
 > 
+## Version 1.0 (Build 28)
+
+- Added sign-out option for server selection view to change accounts.
+- Added option to share logs in same view to help diagnose server discovery issues. App now also always captures relevant auth and server discovery logs, all other logs need to be enabled in Settings. If you experience server discovery issues, please share your logs.
 
 ---
 
