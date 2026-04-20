@@ -2,7 +2,15 @@
 
 > ## IMPORTANT! 
 > Please delete and re-install your watch app for every build, unless explicitly stated otherwise in the build notes. Easiest way is via the watch app, find Wristrax, toggle off, wait a few seconds, toggle back on.
-> 
+>
+---
+
+## Version 1.0 (Build 29)
+
+- Cosmetic changes only: renamed all account references/labels to clearly state "Plex Account" so it is clear there are no Wristrax accounts being created.
+
+---
+ 
 ## Version 1.0 (Build 28)
 
 - Added sign-out option for server selection view to change accounts.
