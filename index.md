@@ -28,7 +28,7 @@ title: Brighter Realities
         <span style="font-size: 1.25rem; font-variation-settings: 'opsz' 24, 'SOFT' 0, 'WONK' 1;">Wristrax</span>
         <span class="description">Your Plex Music on Apple Watch</span>
         <div class="app-store-badge">
-          <a href="#" aria-label="Download on the App Store">
+          <a href="https://apps.apple.com/nl/app/wristrax/id6758014508?l=en-GB" aria-label="Download on the App Store">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
           </a>
         </div>
