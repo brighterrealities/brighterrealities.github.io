@@ -5,6 +5,12 @@
 >
 ---
 
+## Version 1.0.1 (Build 30)
+
+Fixed: music library failed to load for some users when their Plex server returned a single artist or album record with malformed metadata. The app now skips invalid records and loads the rest of the library.
+
+---                                                              
+
 ## Version 1.0 (Build 29)
 
 - Cosmetic changes only: renamed all account references/labels to clearly state "Plex Account" so it is clear there are no Wristrax accounts being created.
