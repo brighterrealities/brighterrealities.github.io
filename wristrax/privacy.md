@@ -1,17 +1,12 @@
----
-layout: default
-title: wristrax Privacy Policy
----
-
 # Privacy Policy
 
-**Last updated: March 24, 2026**
+**Last updated: May 21, 2026**
 
 Holger Schueler ("we", "us") built wristrax as a personal music sync tool for Plex. This policy explains what data wristrax handles and how.
 
 ## The Short Version
 
-wristrax does not collect, track, or transmit your personal data to us or any third party. Everything stays on your device.
+wristrax does not collect or transmit your personal data automatically. The only information we receive is what you choose to send us by email (see "Voluntary correspondence" below). Everything else stays on your device.
 
 ## Data Handling
 
@@ -46,6 +41,16 @@ wristrax only connects to:
 
 No other network connections are made.
 
+### Voluntary correspondence
+
+If you choose to contact us using one of the in-app email actions -- "Get Support", "Send Feedback", "Export Diagnostic Logs", or "Request Beta Access" -- your email app opens with a message prefilled. You decide whether to send it. When you do, we receive:
+
+- Your email address and the message contents.
+- For support and feedback emails: optionally a diagnostic log snapshot you can review and edit before sending.
+- For beta access requests: an App Transaction ID that lets us verify your lifetime purchase in App Store Connect.
+
+We store these emails in our regular inbox and use them only to reply to you, troubleshoot your issue, or process your beta enrollment. We do not share them with third parties. To request deletion of email correspondence from our records, write to us at the contact address below.
+
 ## Third-Party Services
 
 wristrax uses one open-source library ([PlexKit](https://github.com/lcharlick/PlexKit)) for Plex API communication. It does not collect any data.
@@ -62,10 +67,10 @@ wristrax does not knowingly collect any personal information from anyone, includ
 
 ## Changes to This Policy
 
-If we update this policy, the changes will be posted here with an updated date. Since wristrax does not collect contact information, we cannot notify you directly -- please check back if you have concerns.
+If we update this policy, the changes will be posted here with an updated date. We do not maintain a contact list for proactive notifications -- please check back if you have concerns.
 
 ## Contact
 
 If you have questions about this privacy policy, contact us at:
 
-**wristrax@brighterrealities.com**
+**wristrax@holgerschueler.com**
